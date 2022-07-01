@@ -9,10 +9,6 @@ div{
     display: inline-block;
     transition: .1s;
 }
-div:hover{
-    color: rgb(255, 0, 200);
-    transition: 5s;
-}
 #SectionA{
     margin: 100px;
     background-color: #c9c9c9;
