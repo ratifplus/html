@@ -1,0 +1,74 @@
+div{
+    border: 1px solid grey;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    width: 150px;
+    height: 100px;
+    display: inline-block;
+    transition: .1s;
+}
+div:hover{
+    color: rgb(255, 0, 200);
+    transition: 5s;
+}
+#SectionA{
+    margin: 100px;
+    background-color: #c9c9c9;
+    position: relative;
+    left:1px;
+    bottom:20px;
+}
+#SectionB{
+    background-color: #4472c4;
+    position: relative;
+    left:149px;
+    bottom:20px;
+}
+#SectionC{
+    background-color: #8496b0;
+    position: relative;
+    right:359px;
+    top:181px;
+}
+#SectionD{
+    background-color: #8eaadb;
+    position: relative;
+    right:867px;
+    top:382.5px;
+}
+#SectionE{
+    background-color: #f7caac;
+    position: relative;
+    left: 605px;
+    top: 80.5px;
+}
+#SectionD:hover{
+    background-color: aqua;
+    transition: .4s;
+}
+#SectionA:hover{
+    background-color: aqua;
+    transition: .4s;
+}
+#SectionB:hover{
+    background-color: aqua;
+    transition: .4s;
+}
+#SectionC:hover{
+    background-color: aqua;
+    transition: .4s;
+}
+#SectionE:hover{
+    background-color: aqua;
+    transition: .4s;
+}
+a:hover{
+    color: green;
+    transition: .4s;
+}
+div:hover{
+    transform: scale(1.2);
+}
+
